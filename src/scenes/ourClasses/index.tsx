@@ -1,4 +1,5 @@
 import { SelectedPage, ClassType } from "@/shared/types";
+import Class from "./Class";
 import image1 from "@/assets/image1.png";
 import image2 from "@/assets/image2.png";
 import image3 from "@/assets/image3.png";
@@ -7,7 +8,7 @@ import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
-import Class from "./Class";
+
 
 const classes: Array<ClassType> = [
   {
@@ -66,7 +67,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           }}
         >
           <div className="md:w-3/5">
-            <HText>OUR CLASSES</HText>
+            <HText>OUR CLASSES<HText/>
             <p className="py-5">
               Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
               tellus quam porttitor. Mauris velit euismod elementum arcu neque
